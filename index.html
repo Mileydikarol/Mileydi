@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Academico Upeu</title>
+    
+    <!-- CSS embebido -->
+    <style>
+        /* Reseteo básico de márgenes y padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        /* Contenedor general */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Estilos del encabezado */
+        header {
+            background-color: #333;
+            color: Lila;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para la sección de inicio (Hero) */
+        .hero {
+            background-color: #4a90e2; /* Color azul */
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Estilos para la bibliografía */
+        .bibliografia {
+            background-color: #e3f2fd; /* Color azul claro */
+            color: #333;
+            padding: 40px 20px;
+        }
+
+        .bibliografia h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .bibliografia p {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        /* Estilos para las habilidades */
+        .habilidades {
+            background-color: #c8e6c9; /* Color verde claro */
+            color: #333;
+            padding: 40px 20px;
+        }
+
+        .habilidades h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .habilidades ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        .habilidades ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para los proyectos */
+        .proyectos {
+            background-color: #ffecb3; /* Color amarillo claro */
+            color: #333;
+            padding: 40px 20px;
+        }
+
+        .proyectos h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            background-color: #ffe082; /* Color amarillo */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 16px;
+        }
+
+        /* Estilos para el contacto */
+        .contacto {
+            background-color: #e1f5fe; /* Color azul claro */
+            color: #333;
+            padding: 40px 20px;
+        }
+
+        .contacto h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .contacto p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .contacto a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contacto a:hover {
+            text-decoration: underline;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Media Queries (para dispositivos móviles) */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav ul li {
+                display: block;
+                margin-left: 0;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+
+            .project {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navegación -->
+    <header>
+        <div class="container">
+            <h1>Mileydi karol</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#bibliografia">Bibliografía</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Correos
+
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero">
+        <h2>¡Hola! Soy [Mileydi]</h2>
+        <p> Amante de los viajes y de los deportes extremos.</p>
+    </section>
+
+
+    <!-- Sección Bibliografía -->
+    <section id="bibliografia" class="bibliografia">
+        <div class="container">
+            <h2>Bibliografía</h2>
+            <p>¡Hola! Mi nombre es Mileydi Karol soy de las personas que les encanta viajar, me gusta los deportes extremos, me gusta escuchar musica, me gusta ver doramas.</p>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Empatica</li>
+                <li>Confianza en si mismo </li>
+                <li>Responsable</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="proyectos">
+        <div class="container">
+            <h2>Proyectos</h2>
+            
+                    <div class="project">
+                        <h3>Proyecto 1: Terminando la universidad</h3>
+                        <p>Terminando la universidad, pienso crear mi propia empresa dedicada a la importación de diferentes productos.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tu_video_id_1" 
+                                title="Video de Proyecto 1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+            
+                    <div class="project">
+                        <h3>Proyecto 2: Viajes</h3>
+                        <p>Viajar a otro país como a China, me gustaría conocer este país por su cultura.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tu_video_id_2" 
+                                title="Video de Proyecto 2" frameborder="0" allowfullscreen></iframe>
+                    </div>
+            
+                </div>
+            </section>
+
+            <div class="project">
+                <h3>Proyecto 1: Terminando la universidad</h3>
+                <p>Terminando la universidad pienso crear mi propia empresa de la cual se dedicara a las importaciones de diferentes productos.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2: Viajes</h3>
+                <p>Viajar a otro pais como a China, me gustaria conocer este pais por su cultura.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:mileydikarolp@gmail.com"> mileydikarolp@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mi Nombre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
